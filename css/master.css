@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.clearfix{
+    clear: both;
+}
+/*start home*/
+.home{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    padding: 20px 40px;
+}
+.home .nav-logo{
+    float: left;
+    width: 30%;
+    color: white;
+}
+.home .nav-link{
+    float: right;
+    width: 50%;
+}
+.home .nav-link ul{
+    list-style-type: none;
+}
+.home ul li{
+    width: 100px;
+    float: left;
+}
+.home ul a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    text-align: center;
+}
+.home .nav-logo img{
+    width: 50%;
+}
+/*start home-content*/
+.home .home-content{
+    padding-top: 100px;
+    text-align: center;
+    line-height: .7;
+}
+.home .home-content p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 25px;
+    line-height: 1.5;
+}
+.home .home-content h1{
+    font-size: 75px;
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+.home .home-content button{
+    padding: 18px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.home .home-content .bg-tan{
+    background-color: tan;
+}
+.home .home-content .bg-tran{
+    color: white;
+    border: 3px solid white;
+    background-color: transparent;
+    margin-left: 2px;
+}
+.main-section{
+    margin: 70px;
+}
+.main-section .section-img img{
+    float: left;
+    width: 40%;
+}
+.main-section .section-content{
+    float: right;
+    width: 50%;
+}
+.main-section .content img{
+    float: left;
+    width: 10%;
+}
+.main-section .content p{
+    float: right;
+    width: 90%;
+}
+.main-section .section-content h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.main-section .section-content p{
+    padding: 10px;
+}
+.location{
+    background-color: #eee;
+    padding: 60px;
+}
+.location .location-content{
+    float: left;
+    width: 50%;
+}
+.location .location-content h2{
+    font-size: 30px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.location .location-content p{
+    line-height: 1.8;
+    margin: 20px;
+}
+.location .location-img{
+    float: right;
+    width: 40%;
+}
+.location .location-img img{
+    width: 100%;
+}
+.third-section .content{
+    text-align: center;
+    margin: 40px 0;
+    line-height: 1.5;
+}
+.third-section .content h2{
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.third-section .section-card .card{
+    float: left;
+    width: calc(84%/3);
+    margin-left: 4%;
+}
+.section-card .card-img img{
+    width: 100%;
+}
+.third-section .content-card{
+    padding: 20px 0;
+    text-align: center;
+}
+.third-section .content-card p{
+    padding: 10px;
+    line-height: 1.4;
+}
+.four-section{
+    background-color: #eee;
+    padding: 70px
+}
+.four-section .four-content{
+    float: left;
+    width: 50%;
+}
+.four-section .four-content h2{
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.four-section .four-content p{
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.599);
+}
+.four-section .content img{
+    float: left;
+    width: 10%;
+}
+.four-section .content p{
+    float: right;
+    width: 90%;
+}
+.four-section .four-host{
+    float: right;
+    width: 40%;
+}
+.four-section .four-host iframe{
+    width: 500px;
+    height: 500px;
+    margin-top: 22px;
+}
+.footer{
+    text-align: center;
+    background-color: #403D38;
+    padding: 50px;
+}
+footer p{
+    color: white;
+}
+.info img{
+    width: 45px;
+    height: 45px;
+    display: inline-block;
+    border: 2px white solid;
+    border-radius: 50%;
+    border-style: none;
+    background-color: #353330;
+}
